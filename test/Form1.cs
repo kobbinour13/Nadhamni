@@ -25,7 +25,8 @@ namespace test
             axCalendar51.DayCaptionBackColor = Color.Gold;
             axCalendar51.MonthYearBackColor = Color.DarkGray;
             axCalendar51.MonthYearForeColor = Color.Gold;
-            axCalendar51.CtlBackColor = Color.DarkCyan;
+            
+            axCalendar51.CtlBackColor = Color.DeepSkyBlue;
 
 
         }
