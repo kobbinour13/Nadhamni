@@ -49,18 +49,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtnbr = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_val
@@ -290,96 +282,12 @@
             this.txtnbr.Size = new System.Drawing.Size(79, 20);
             this.txtnbr.TabIndex = 52;
             // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label18.Location = new System.Drawing.Point(2, 17);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(99, 21);
-            this.label18.TabIndex = 43;
-            this.label18.Text = "First Name :";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox3.Location = new System.Drawing.Point(113, 19);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(124, 19);
-            this.textBox3.TabIndex = 44;
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label17.Location = new System.Drawing.Point(2, 51);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(121, 21);
-            this.label17.TabIndex = 50;
-            this.label17.Text = "Date of birth :";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.CalendarMonthBackground = System.Drawing.SystemColors.WindowFrame;
-            this.dateTimePicker3.Location = new System.Drawing.Point(113, 52);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(2);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(165, 20);
-            this.dateTimePicker3.TabIndex = 51;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Jardin d\'enfant",
-            "Ecole",
-            "College",
-            "Lycée",
-            "Faculté"});
-            this.comboBox4.Location = new System.Drawing.Point(146, 89);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 52;
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label16.Location = new System.Drawing.Point(2, 89);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(144, 21);
-            this.label16.TabIndex = 54;
-            this.label16.Text = "Niveau Scolaire :";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.Gold;
-            this.panel11.Controls.Add(this.label16);
-            this.panel11.Controls.Add(this.comboBox4);
-            this.panel11.Controls.Add(this.dateTimePicker3);
-            this.panel11.Controls.Add(this.label17);
-            this.panel11.Controls.Add(this.textBox3);
-            this.panel11.Controls.Add(this.label18);
-            this.panel11.Location = new System.Drawing.Point(53, 392);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(293, 131);
-            this.panel11.TabIndex = 54;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(169)))), ((int)(((byte)(244)))));
             this.ClientSize = new System.Drawing.Size(385, 581);
-            this.Controls.Add(this.panel11);
             this.Controls.Add(this.txtnbr);
             this.Controls.Add(this.rbo);
             this.Controls.Add(this.dtp_wife);
@@ -402,8 +310,6 @@
             this.panel6.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,12 +338,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtnbr;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Panel panel11;
     }
 }

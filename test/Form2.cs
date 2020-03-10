@@ -34,7 +34,7 @@ namespace test
             txtnbr.Hide();
             int nbr = int.Parse(txtnbr.Text);
 
-            if (rbo.Checked && nbr < 3)
+            if (rbo.Checked && nbr < 4)
             {
                 label3.Hide();
                 label5.Hide();
@@ -64,7 +64,6 @@ namespace test
             "Féminin",
             });
 
-                    panel11.Hide();
                     pnl.Top = initpnlY;
                     pnl.Left = 33;
                     pnl.BackColor = Color.Gold;
@@ -173,7 +172,6 @@ namespace test
             "Féminin",
             });
 
-                    panel11.Hide();
                     pnl.Top = initpY;
                     pnl.Left = 33;
                     pnl.BackColor = Color.Gold;
@@ -267,7 +265,6 @@ namespace test
             });
 
 
-                    panel11.Hide();
                     pnl.Top = initpnlY;
                     pnl.Left = 417;
                     pnl.BackColor = Color.Gold;
