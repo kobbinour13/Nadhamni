@@ -41,17 +41,17 @@
             // 
             this.axCalendar51.AllowDrop = true;
             this.axCalendar51.Enabled = true;
-            this.axCalendar51.Location = new System.Drawing.Point(0, -13);
+            this.axCalendar51.Location = new System.Drawing.Point(0, 0);
             this.axCalendar51.Name = "axCalendar51";
             this.axCalendar51.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axCalendar51.OcxState")));
-            this.axCalendar51.Size = new System.Drawing.Size(863, 535);
+            this.axCalendar51.Size = new System.Drawing.Size(867, 662);
             this.axCalendar51.TabIndex = 3;
             this.axCalendar51.UseWaitCursor = true;
             this.axCalendar51.OnDayClick += new AxCALENDARLib5._DCalendarEvents5_OnDayClickEventHandler(this.axCalendar51_OnDayClick);
             // 
             // btn_succ
             // 
-            this.btn_succ.Location = new System.Drawing.Point(724, 38);
+            this.btn_succ.Location = new System.Drawing.Point(711, 53);
             this.btn_succ.Name = "btn_succ";
             this.btn_succ.Size = new System.Drawing.Size(75, 23);
             this.btn_succ.TabIndex = 4;
@@ -61,7 +61,7 @@
             // 
             // btn_pred
             // 
-            this.btn_pred.Location = new System.Drawing.Point(627, 38);
+            this.btn_pred.Location = new System.Drawing.Point(630, 53);
             this.btn_pred.Name = "btn_pred";
             this.btn_pred.Size = new System.Drawing.Size(75, 23);
             this.btn_pred.TabIndex = 5;
@@ -71,17 +71,17 @@
             // 
             // btn_go
             // 
-            this.btn_go.Location = new System.Drawing.Point(498, 38);
+            this.btn_go.Location = new System.Drawing.Point(501, 53);
             this.btn_go.Name = "btn_go";
             this.btn_go.Size = new System.Drawing.Size(75, 23);
             this.btn_go.TabIndex = 6;
-            this.btn_go.Text = "Test";
+            this.btn_go.Text = "Go";
             this.btn_go.UseVisualStyleBackColor = true;
             this.btn_go.Click += new System.EventHandler(this.btn_go_Click);
             // 
             // dtp
             // 
-            this.dtp.Location = new System.Drawing.Point(309, 41);
+            this.dtp.Location = new System.Drawing.Point(305, 56);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(160, 20);
             this.dtp.TabIndex = 7;
@@ -90,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 522);
+            this.ClientSize = new System.Drawing.Size(867, 660);
             this.Controls.Add(this.dtp);
             this.Controls.Add(this.btn_go);
             this.Controls.Add(this.btn_pred);

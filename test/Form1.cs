@@ -20,6 +20,13 @@ namespace test
        
         private void Form1_Load(object sender, EventArgs e)
         {
+            axCalendar51.DayColor = Color.DarkGray;
+            axCalendar51.DayCaptionForeColor = Color.Black;
+            axCalendar51.DayCaptionBackColor = Color.Gold;
+            axCalendar51.MonthYearBackColor = Color.DarkGray;
+            axCalendar51.MonthYearForeColor = Color.Gold;
+            axCalendar51.CtlBackColor = Color.DarkCyan;
+
 
         }
 
